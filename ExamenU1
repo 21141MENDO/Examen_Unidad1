@@ -1,0 +1,10 @@
+//1 Verifique solo numero par
+// a. escriba una funcion que tome un entero y devuelva un boleano que indique si es par o no.
+def isEven(num:Int): Boolean = {
+return num%2 == 0
+}
+def isPar(num:Int): num % 2 == 0
+println(espar(6))
+println(noespar(3))
+
+ //a. escriba una funcion que devulva True si hay un numero  
