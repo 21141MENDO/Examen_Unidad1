@@ -52,4 +52,5 @@ maxyear.show()
 //e ¿Cuál es el promedio de la columna "close" para cada mes del calendario?
 val dfmonth = df.withColumn("Month",month(df("Date")))
 val avgmonth = dfmonth.select($"Month",$"Close").groupBy("Month").mean()
-avgmonth.select($"Month",$"avg(Close)").orderBy("Month").show()
+avgmonth.select($"Month",$"avg(Close)").orderBy("Month").show().
+

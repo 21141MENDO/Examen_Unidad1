@@ -82,6 +82,6 @@ println(palindromo(palabra))
 println(palindromo(palabra2))
 println(palindromo(palabra3))
 
-
+.
 
 
